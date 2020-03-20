@@ -8,7 +8,7 @@ def oxford_comma(array)
   elsif array.size == 3
   new_array = []
   new_array << array.join(",")
-  new_array.join[3](",")
+  new_array.instert(3, " and ")
   else
    
  end
