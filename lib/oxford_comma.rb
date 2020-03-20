@@ -9,7 +9,7 @@ def oxford_comma(array)
   new_array = []
   new_array << array.join(",")
   new_array.insert(3, " and ")
+  new_array
   else
-   new_array
  end
 end
